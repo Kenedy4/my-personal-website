@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+img{
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
 body{
     background: bisque;
 }
