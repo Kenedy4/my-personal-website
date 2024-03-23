@@ -1,10 +1,13 @@
-/* *{
-    padding: 0;
-    margin: 0;
-} */
-.main
+body{
+    color: rgb(131, 121, 121);
+}
+.container
 {
     background-color: firebrick;
+    text-align: center;
+    color: aqua;
+    width: 100%;
+    /* padding: 10%; */
 }
 /* h1{
     text-align: center;
@@ -23,35 +26,18 @@ script{
     height: 75px;
     margin: auto;
 }
-/* body{
-    background-color: firebrick;
-} */
+
 .favicon{
-    width: 195px;
-    height: 75px;
+    width: 10%;
+    height: 10;
     float: left;
 }
-.log{
-    color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 9px;
-}
+
 .menu{
-    width: 350px;
-    height: 67px;
-    float: left;
-}
-ul{
-    display: flex;
+    width: 400px;
+    height: 60px;
     align-items: center;
     justify-content: center;
-    float: left;
-
-}
-ul li{
-    margin-left: 60px;
-    list-style: none;
-    margin-top: 30px;
-    font-size: 18px;
-}
+   margin-top: 10px; 
+    font-size: 18px; 
+} 
