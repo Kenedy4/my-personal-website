@@ -1,15 +1,132 @@
-body{
-    color: rgb(131, 121, 121);
+
+*{
+    margin: 0;
+    padding: 0;
 }
+body{
+    background: bisque;
+}
+.header{
+    min-height: 135vh;
+    width: 96%;
+    background-image: linear-gradient(rgba(6,80,3,5), rgba(5,8,30,25)) url(Images/20240112_154721.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 1.5% 4.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px 13px;
+    position: relative;
+}
+.navbar ul li a{
+    color: brown;
+    font-size: 15px;
+    text-decoration: none;
+}
+navbar ul li ::after{
+content: '';
+margin: auto;
+/* width: 100%; */
+display: block;
+height: 2.5px;
+background: #f33554;
+}
+
+navbar ul li:hover::after{
+width: 100%;
+}
+.text{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    font-size: 65px;
+}
+.text p{
+    margin: 10px 0 40px;
+    font-size: 16px;
+    color: green;
+}
+.Personal-btn{
+   display: inline-block;
+text-decoration: none;
+color: blue;
+position: relative;
+cursor: pointer;
+background: transparent;
+font-size: 16px;
+padding: 13px 35px;
+border: 1px solid blue;
+}
+.Personal-btn:hover{
+border: 1px solid #f657f6;
+background: #f657f6;
+transition: 1s;
+}
+@media(max-width: 695px){
+    .text h1{
+        font-size: 20px;
+    }
+    .navbar ul li{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        background-color: rgba(146, 131, 140, 0)f1;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200;
+        text-align: left;
+        z-index: 2;
+    }
+}
+.contact{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 575;
+}
+p{
+    color: firebrick;
+    font-size: 17px;
+    font-weight: 287;
+    line-height: 19px;
+    padding: 13px;
+}
+/* a
+ body{
+    text-align: center;
+    background-color: blanchedalmond;}
 .container
 {
     background-color: firebrick;
     text-align: center;
     color: aqua;
     width: 100%;
-    /* padding: 10%; */
-}
-/* h1{
+    padding: 10%; 
+} 
+h1{
     text-align: center;
     color: aqua;
     padding: 10%;
@@ -20,13 +137,16 @@ script{
 }
 .row{
     background-color: aquamarine;
-} */
+} 
 .navbar{
     width: 100%;
     height: 75px;
     margin: auto;
+} 
+#Page{
+    background-color: aqua;
+    text-justify: auto;
 }
-
 .favicon{
     width: 10%;
     height: 10;
@@ -40,4 +160,4 @@ script{
     justify-content: center;
    margin-top: 10px; 
     font-size: 18px; 
-} 
+}     */
